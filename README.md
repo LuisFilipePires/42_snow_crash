@@ -143,6 +143,7 @@ nc -zv 192.168.1.50 4242
 expected: connection to 192.168.1.50 4242 port [tcp/*] succeeded!
 
 | Comand | Purpose |
+|--------|---------|
 | ping IP | check network connectivity |
 | nmap/nc port 4242 | check SSH service |
 | ssh -p 4242 | connect |
