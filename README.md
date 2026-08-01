@@ -248,7 +248,7 @@ d--x--x--x  1 root    users    340 Aug 30  2015 ..
 
 ---
 
-##To view each stage of the process, folow each step in the README file on resources folders.
+## To view each stage of the process, folow each step in the README file on resources folders.
 
 
 
