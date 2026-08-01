@@ -212,6 +212,7 @@ flag00@SnowCrash:~$
 ```
 
 Next Password for ssh level01@192.168.1.50 -p 4242
+
 password: x24ti5gi3x0ol2eh4esiuxias
 
 
