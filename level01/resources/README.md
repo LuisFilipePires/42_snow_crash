@@ -4,7 +4,6 @@ Since I already investigated `/etc/passwd` during the previous level, I suspecte
 
 The entry for `flag01` was:
 
-```text
 flag01:42hDRfypTqqnw:3001:3001::/home/flag/flag01:/bin/bash
 
 The value:
@@ -35,6 +34,7 @@ In this case:
 ^^
 ||
 salt
+
 ```
 
 The first two characters (42) are the salt, and the remaining characters are the hashed password.
@@ -43,6 +43,7 @@ I saved the hash into a file:
 
 ```
 echo "42hDRfypTqqnw" > hash.txt
+
 ```
 
 Then I used John the Ripper to crack the hash:
