@@ -18,7 +18,7 @@
 - 2 - Service Discovery
 - 3 - Initial Access
 - 4 - Exploitation
-- 5 Privilege escalation
+- 5 - Privilege escalation
 
 ---
 
@@ -183,7 +183,7 @@ expected: connection to 192.168.1.50 4242 port [tcp/*] succeeded!
 
 ---
 
-## 1 Reconaissance
+# 1 - Reconaissance
 
 ### Initial Reconnaissance
 
@@ -217,12 +217,38 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
           192.168.1.50
 level00@192.168.1.50's password: 
 Permission denied, please try again.
-level00@192.168.1.50's password: 
+level00@192.168.1.50's password:  "  level00  " 
 
 ```
 
+## Web Service Enumeration
+
+``` curl level00@192.168.1.50 ```
+
+returned: " It Works! "
+
+| Service | Port | Status |
+|---------|------|--------|
+| HTTP | 80 | Open (default page) |
+| SSH | 4242 | Open (Snow Crash access) |
+
+password : level00
+
+```level00@SnowCrash:~$ ls -al```
+
+```
+total 12
+dr-xr-x---+ 1 level00 level00  100 Mar  5  2016 .
+d--x--x--x  1 root    users    340 Aug 30  2015 ..
+-r-xr-x---+ 1 level00 level00  220 Apr  3  2012 .bash_logout
+-r-xr-x---+ 1 level00 level00 3518 Aug 30  2015 .bashrc
+-r-xr-x---+ 1 level00 level00  675 Apr  3  2012 .profile
+```
+
+
 ---
 
+##To view each stage of the process, folow each step in the README file on resources folders.
 
 
 
