@@ -16,10 +16,10 @@ hashid 42hDRfypTqqnw
 
 The result was:
 
-Analyzing '42hDRfypTqqnw'
-[+] DES(Unix)
-[+] Traditional DES
-[+] DEScrypt
+- Analyzing '42hDRfypTqqnw'
+- [+] DES(Unix)
+- [+] Traditional DES
+- [+] DEScrypt
 
 This indicated that the value was probably a traditional Unix DES crypt hash.
 
