@@ -149,24 +149,15 @@ level01:x:2001:2001::/home/user/level01:/bin/bash
 
 --- 
 
-- After finding the user home directory from `/etc/passwd`, I checked the corresponding directory:
-
-cd /rofs/home/user/level00
-
-ls -al
-
-```
-- The directory only contained standard shell configuration files:
-
-  - `.bashrc`
-  - `.profile`
-  - `.bash_logout`
-```
-
-- No obvious password or flag file was found in the user's home directory.
-
-
 # finding the flag
+
+```flag00:x:3000:3000::/home/flag/flag00:/bin/bash```
+
+x -> means ```password at /etc/shadow```
+3000 -> UID user ID
+:3000 -> GID Group ID
+
+so ```find / -group flag00```
 
 - i try ``` find / -user flag00 2>/dev/null ``` but received to mutch noise
 
@@ -211,8 +202,14 @@ flag00@SnowCrash:~$
 
 ```
 
-Next Password for ```ssh level01@192.168.1.50 -p 4242```
+### Next Password for ```ssh level01@192.168.1.50 -p 4242```
 
-password: x24ti5gi3x0ol2eh4esiuxias
+### password: x24ti5gi3x0ol2eh4esiuxias
+
+---
+
+The tip here
+
+
 
 
