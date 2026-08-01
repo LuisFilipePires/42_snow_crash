@@ -153,9 +153,9 @@ level01:x:2001:2001::/home/user/level01:/bin/bash
 
 ```flag00:x:3000:3000::/home/flag/flag00:/bin/bash```
 
-x -> means ```password at /etc/shadow```
-3000 -> UID user ID
-:3000 -> GID Group ID
+- x -> means ```password at /etc/shadow```
+- 3000 -> UID user ID
+- :3000 -> GID Group ID
 
 so ```find / -group flag00```
 
