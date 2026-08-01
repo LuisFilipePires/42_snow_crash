@@ -188,6 +188,7 @@ expected: connection to 192.168.1.50 4242 port [tcp/*] succeeded!
 ### Initial Reconnaissance
 
 | Step | Command | Purpose |
+|------|---------|---------|
 | 1 | `ping 192.168.1.50' | Verify network connectivity |
 | 2 | `nmap -p 4242 192.168.1.50` | Check SSH service port |
 | 3 | `ssh -p 4242 level00@192.168.1.50` | Connect to the target |
