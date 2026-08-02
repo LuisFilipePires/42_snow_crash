@@ -39,7 +39,7 @@ Enter Ip machine, this ip showed its for an example only: 192.168.1.50
 - password: ```kooda2puivaav1idi4f57q8iq```
 
 - 4 - level04 -> ```ssh level04@192.168.1.50 -p 4242```
-- password: 
+- password: ```qi0maab88jeaj46qoumi7maus```
 
 ```
 
