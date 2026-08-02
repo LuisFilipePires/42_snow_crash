@@ -32,6 +32,12 @@ d--x--x--x 1 root    users    340 Aug 30  2015 ..
 -r-x------ 1 level02 level02  675 Apr  3  2012 .profile
 
 
+### Download file
+
+### ```scp -P 4242 level02@192.168.1.50:/home/user/level02/level02.pcap .```
+
+If dont work goes by ``` /rofs/home/user/level02/level02.pcap .```
+
 I opened the `level02.pcap` file with **Wireshark**.
 
 The file contains a captured network session. To inspect the exchanged data, I selected one of the TCP packets and chose:

@@ -104,6 +104,6 @@ flag01@SnowCrash:~$
 ---
 
 ### Next Password for ssh level02@192.168.1.50 -p 4242
-password: f2av5il02puano7naaf6adaaf
+### password: f2av5il02puano7naaf6adaaf
 
 ---
