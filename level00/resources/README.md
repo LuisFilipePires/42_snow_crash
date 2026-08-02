@@ -25,8 +25,6 @@ d--x--x--x  root root  home
 
 The directory `/home` only gives execute permission (`x`) to users. This allows users to access a directory if they already know the path, but they cannot list its contents with `ls`.
 
-- With the `cd` command, I used the `TAB` key for auto-completion. This allowed me to see the available files and directories that I could access or traverse.
-
 ```
 level00@SnowCrash:/$ ls -al
 total 2
@@ -59,7 +57,7 @@ level00@SnowCrash:/$
 
 ```
 
-While inspecting the filesystem, I noticed the `/rofs` directory:
+While inspecting the filesystem, I noticed the `/rofs` directory somethig strange: 
 
 ``` drwxrwxrwx root root rofs ```
 
@@ -138,7 +136,7 @@ username:password:UID:GID:comment:home_directory:shell
 
 - While most users have `x` in the password field, which means the password hash is stored somewhere else (`/etc/shadow`), I noticed that the user `flag01` had a different value:
 
-flag01:42hDRfypTqqnw:3001:3001::/home/flag/flag01:/bin/bash
+flag01:42hDRfypTqqnw:3001:3001::/home/flag/flag01:/bin/bash (catch it for next flag step)
 
 - This indicates that a password-related value was exposed directly in `/etc/passwd`, which is a security issue.
 - The file also revealed the home directories of the different levels, for example:
