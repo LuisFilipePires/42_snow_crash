@@ -27,28 +27,28 @@ Enter Ip machine, this ip showed its for an example only: 192.168.1.50
 
 
 - 0 - level00 -> ```ssh level00@192.168.1.50 -p 4242```
-- password: ```level00```
+password: ```level00```
 
 - 1 - levell01 -> ```ssh level01@192.168.1.50 -p 4242```
-- passowrd: ```x24ti5gi3x0ol2eh4esiuxias```
+passowrd: ```x24ti5gi3x0ol2eh4esiuxias```
 
 - 2- level02 -> ```ssh level02@192.168.1.50 -p 4242```
-- password: ```f2av5il02puano7naaf6adaaf```
+password: ```f2av5il02puano7naaf6adaaf```
 
 - 3- level03 ```ssh level03@192.168.1.50 -p 4242```
-- password: ```kooda2puivaav1idi4f57q8iq```
+password: ```kooda2puivaav1idi4f57q8iq```
 
 - 4 - level04 -> ```ssh level04@192.168.1.50 -p 4242```
-- password: ```qi0maab88jeaj46qoumi7maus```
+password: ```qi0maab88jeaj46qoumi7maus```
 
 - 5 - level05 -> ```ssh level05@192.168.1.50 -p 4242```
-- password: ```ne2searoevaevoem4ov4ar8ap```
+password: ```ne2searoevaevoem4ov4ar8ap```
 
 - 6 - level06 -> ```ssh level06@192.168.1.50 -p 4242```
-- password: ```viuaaale9huek52boumoomioc```
+password: ```viuaaale9huek52boumoomioc```
 
 - 7 - level07 -> ```ssh level07@192.168.1.50 -p 4242```
-- password: ```wiok45aaoguiboiki2tuin6ub```
+password: ```wiok45aaoguiboiki2tuin6ub```
 
 ---
 
