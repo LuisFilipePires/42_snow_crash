@@ -37,7 +37,8 @@ d--x--x--x 1 root    users    340 Aug 30  2015 ..
 
 ### ```scp -P 4242 level02@192.168.1.50:/home/user/level02/level02.pcap .```
 
-If dont work goes by ``` /rofs/home/user/level02/level02.pcap .```
+If dont work goes by ``` scp -P 4242 level02@192.168.178.67:level02.pcap .``` or ```~/:```
+
 
 I opened the `level02.pcap` file with **Wireshark**.
 
