@@ -41,6 +41,23 @@ Enter Ip machine, this ip showed its for an example only: 192.168.1.50
 - 4 - level04 -> ```ssh level04@192.168.1.50 -p 4242```
 - password: ```qi0maab88jeaj46qoumi7maus```
 
+- 5 - level05 -> ```ssh level05@192.168.1.50 -p 4242```
+- password: ```ne2searoevaevoem4ov4ar8ap```
+
+- 6 - level06 -> ```ssh level06@192.168.1.50 -p 4242```
+- password: ```viuaaale9huek52boumoomioc```
+
+```
+---
+
+```
+* **level00** → find a hidden file owned by the `flag00` group
+* **level01** → crack a DES hash found in `/etc/passwd`
+* **level02** → analyze network traffic from a `.pcap` file
+* **level03** → exploit `setuid` permissions and perform PATH hijacking
+* **level04** → exploit a CGI Perl command injection vulnerability
+* **level05** → exploit a cron job running commands as another user
+
 ```
 
 ---
