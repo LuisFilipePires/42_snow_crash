@@ -25,7 +25,7 @@ All others levels password is the flag captured from the last level
 Enter Ip machine, this ip showed its for an example only: 192.168.1.50
 
 
-```
+
 - 0 - level00 -> ```ssh level00@192.168.1.50 -p 4242```
 - password: ```level00```
 
@@ -47,18 +47,19 @@ Enter Ip machine, this ip showed its for an example only: 192.168.1.50
 - 6 - level06 -> ```ssh level06@192.168.1.50 -p 4242```
 - password: ```viuaaale9huek52boumoomioc```
 
-```
+- 7 - level07 -> ```ssh level07@192.168.1.50 -p 4242```
+- password: ```wiok45aaoguiboiki2tuin6ub```
+
 ---
 
-```
 * **level00** → find a hidden file owned by the `flag00` group
 * **level01** → crack a DES hash found in `/etc/passwd`
 * **level02** → analyze network traffic from a `.pcap` file
 * **level03** → exploit `setuid` permissions and perform PATH hijacking
 * **level04** → exploit a CGI Perl command injection vulnerability
 * **level05** → exploit a cron job running commands as another user
+* **level06** → exploit a PHP code injection vulnerability caused by unsafe `preg_replace` usage
 
-```
 
 ---
 
