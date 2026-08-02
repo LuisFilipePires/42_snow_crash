@@ -1,6 +1,30 @@
 # level00
 
 ```
+** WARNING: connection is not using a post-quantum key exchange algorithm.
+** This session may be vulnerable to "store now, decrypt later" attacks.
+** The server may need to be upgraded. See https://openssh.com/pq.html
+           _____                      _____               _     
+          / ____|                    / ____|             | |    
+         | (___  _ __   _____      _| |     _ __ __ _ ___| |__  
+          \___ \| '_ \ / _ \ \ /\ / / |    | '__/ _` / __| '_ \ 
+          ____) | | | | (_) \ V  V /| |____| | | (_| \__ \ | | |
+         |_____/|_| |_|\___/ \_/\_/  \_____|_|  \__,_|___/_| |_|
+                                                        
+  Good luck & Have fun
+
+          192.168.1.50 
+level00@192.168.1.50's
+password: level00
+
+level00@SnowCrash:~$  
+
+```
+
+---
+
+
+```
 1. Enumerate filesystem with ls.
 2. Discover `/rofs` contains another filesystem tree.
 3. Inspect `/etc/passwd` to identify users and home directories.
@@ -159,6 +183,7 @@ so ```find / -group flag00```
 
 - i try ``` find / -user flag00 2>/dev/null ``` but received to mutch noise
 
+***
 - I searched for files belonging to the `flag00` group: ``` find / -group flag00 2>/dev/null ``` 
 
 
@@ -205,9 +230,3 @@ flag00@SnowCrash:~$
 ### password: x24ti5gi3x0ol2eh4esiuxias
 
 ---
-
-The tip here
-
-
-
-

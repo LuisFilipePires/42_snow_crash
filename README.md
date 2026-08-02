@@ -1,5 +1,7 @@
 # Snow_crash
 
+---
+
 ```
            _____                      _____               _     
           / ____|                    / ____|             | |    
@@ -10,6 +12,35 @@
                                                         
   Good luck & Have fun
   
+```
+
+---
+
+### The fisrt level connect via ssh level00@ > IP < -p 4242
+
+### password: level00
+
+All others levels password is the flag captured from the last level
+
+Enter Ip machine, this ip showed its for an example only: 192.168.1.50
+
+
+```
+- 0 - level00 -> ```ssh level00@192.168.1.50 -p 4242```
+- password: ```level00```
+
+- 1 - levell01 -> ```ssh level01@192.168.1.50 -p 4242```
+- passowrd: ```x24ti5gi3x0ol2eh4esiuxias```
+
+- 2- level02 -> ```ssh level02@192.168.1.50 -p 4242```
+- password: ```f2av5il02puano7naaf6adaaf```
+
+- 3- level03 ```ssh level03@192.168.1.50 -p 4242```
+- password: ```kooda2puivaav1idi4f57q8iq```
+
+- 4 - level04 -> ```ssh level04@192.168.1.50 -p 4242```
+- password: 
+
 ```
 
 ---
@@ -248,19 +279,6 @@ d--x--x--x  1 root    users    340 Aug 30  2015 ..
 
 ---
 
-## To view each stage of the process, folow each step in the README file on resources folders.
-
-
-
-
-
-
-
-
-
-
-
-
-
+## To view each stage of the process, follow the steps in the README file located in each resources folder.
 
 
