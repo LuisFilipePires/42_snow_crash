@@ -29,11 +29,11 @@ Enter Ip machine, this ip showed its for an example only: 192.168.1.50
 - 0 - level00 -> ```ssh level00@192.168.1.50 -p 4242```
 password: ```level00```
 
-- 1 - levell01 -> ```ssh level01@192.168.1.50 -p 4242``` passoword: ```x24ti5gi3x0ol2eh4esiuxias```
+- 1 - level01 -> ```ssh level01@192.168.1.50 -p 4242``` passoword: ```x24ti5gi3x0ol2eh4esiuxias```
 
-- 2- level02 -> ```ssh level02@192.168.1.50 -p 4242``` password: ```f2av5il02puano7naaf6adaaf```
+- 2 - level02 -> ```ssh level02@192.168.1.50 -p 4242``` password: ```f2av5il02puano7naaf6adaaf```
 
-- 3- level03 ```ssh level03@192.168.1.50 -p 4242``` password: ```kooda2puivaav1idi4f57q8iq```
+- 3 - level03 -> ```ssh level03@192.168.1.50 -p 4242``` password: ```kooda2puivaav1idi4f57q8iq```
 
 - 4 - level04 -> ```ssh level04@192.168.1.50 -p 4242``` password: ```qi0maab88jeaj46qoumi7maus```
 
@@ -42,6 +42,10 @@ password: ```level00```
 - 6 - level06 -> ```ssh level06@192.168.1.50 -p 4242``` password: ```viuaaale9huek52boumoomioc```
 
 - 7 - level07 -> ```ssh level07@192.168.1.50 -p 4242``` password: ```wiok45aaoguiboiki2tuin6ub```
+
+- 8 - level08 -> ```ssh level08@192.168.1.50 -p 4242``` password: ```fiumuikeil55xe9cu4dood66h```
+
+- 9 - level09 -> ```ssh level09@192.168.1.50 -p 4242``` password: ```25749xKZ8L7DkSCwJkT9dyv6f```
 
 ---
 
