@@ -47,6 +47,8 @@ password: ```level00```
 
 - 9 - level09 -> ```ssh level09@192.168.1.50 -p 4242``` password: ```25749xKZ8L7DkSCwJkT9dyv6f```
 
+- 10 - level10 -> ```ssh level10@192.168.1.50 -p 4242``` password: ```s5cAJpM8ev6XHw998pRWG728z```
+
 ---
 
 * **level00** → find a hidden file owned by the `flag00` group
@@ -57,6 +59,8 @@ password: ```level00```
 * **level05** → exploit a cron job running commands as another user
 * **level06** → exploit a PHP code injection vulnerability caused by unsafe `preg_replace` usage
 * **level07** → level07 → variável de ambiente + system()
+* **level08** → bypass insecure filename validation using a symbolic link (symlink attack) to read a protected file
+* **level09** → reverse engineer a character transformation algorithm and recover the password by reversing the encoding process
 
 ---
 
